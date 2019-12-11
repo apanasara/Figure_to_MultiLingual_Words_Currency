@@ -1,11 +1,14 @@
 # Figure_to_MultiLingual_Words_Currency
 VBA Macro is developed to 'spell the Amount'.
 
+# How to use?
 
+![Use Spell Function](Github_Spell.png)
 
 # Current Consideration
-1. upto 999 French-Billion
-2. considered 2 decimal fraction value & rounding off by floor value
-3. "Un" is used incase of One, Million, Milliard or Billion
-4. Livre Sterling/Pound has Pense decimal
-5. lng = 0 for english & @ lng = 1 for french---> (Default French conversion in case language not set)
+1. Currently, Tow Languages are taken for conversion, but can be exteded to multiple languages. (by including into *Sub SpellWords()*, *Sub Seprators()* and *Sub Misc()*)
+2. Conversion is considered upto 999 French-Billion. This can be extended. (by including into *Sub Seprators()*)
+3. Considered 2 decimal fraction value & rounding off by floor value
+4. "Un" is used incase of One, Million, Milliard or Billion
+5. Livre Sterling/Pound has Pense decimal.
+6. Function has default French conversion in case language not set
